@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="BasicCalculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="BasicCalculator.js"></script>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="flex-container">
+                <div class="container">
+                    <input type="text" name="val" id="v1" placeholder="ENTER EXPRESSION"><br>
+                    <button id="b1" onclick="pVal('1')">1</button>
+                    <button id="b1" onclick="pVal('2')">2</button>
+                    <button id="b1" onclick="pVal('3')">3</button><br>
+                    <button id="b1" onclick="pVal('4')">4</button>
+                    <button id="b1" onclick="pVal('5')">5</button>
+                    <button id="b1" onclick="pVal('6')">6</button><br>
+                    <button id="b1" onclick="pVal('7')">7</button>
+                    <button id="b1" onclick="pVal('8')">8</button>
+                    <button id="b1" onclick="pVal('9')">9</button><br>
+                    <button id="b1" onclick="pVal('0')">0</button>
+                    <button id="b1" onclick="pVal('+')">+</button>
+                    <button id="b2" onclick="pVal('-')">-</button><br>
+                    <button id="b3" onclick="pVal('x')">x</button>
+                    <button id="b4" onclick="pVal('/')">/</button>
+                    <button id="b5" onclick="pVal('%')">%</button><br>
+                    <button id="b5" onclick="pVal('C')">C</button>
+                    <button id="b5" onclick="pVal('A')">A</button>
+                    <button id="b6" onclick="calculator()">=</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
