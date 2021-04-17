@@ -183,8 +183,8 @@
     }
     
     .flex-container{
-        padding: 0.5rem;
-        margin-left: 2rem;
+        padding: 0.8rem;
+        margin-left: 1.4rem;
         display: flex;
         justify-content: center;
     }
