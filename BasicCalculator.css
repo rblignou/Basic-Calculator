@@ -10,8 +10,8 @@
         grid-template-rows: 1fr 2fr 1fr;
     }
     section{
-        border: 3px solid teal;
-        background-color: teal;
+        border: 3px solid tomato ;
+        background-color: tomato;
         border-radius: 2rem;
         grid-row-start: 2;
         grid-row-end: 3;
@@ -29,7 +29,7 @@
     }
 
     .container{
-        background-color: teal;
+        background-color: tomato;
     }
 
     .container button{
@@ -40,7 +40,7 @@
         color: white;
         font-weight: bolder;
         font-size: 1.5rem;
-        background-color: rgba(0, 0, 0, 0.568);
+        background-color: rgb(0, 0, 0);
     }
     
     .container button:hover{
